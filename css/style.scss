@@ -1,4 +1,4 @@
-body {
+body, ul {
 	margin: 0;
 	padding: 0;
 
@@ -17,8 +17,11 @@ body {
 	grid-auto-rows: 200px;
 	grid-gap: 150px;
 
+	list-style-type: none;
+
 
 	&__block {
+		// display: block;
 
 		border-radius: 5px;
 		box-shadow: 0 0 10px deeppink;
